@@ -137,6 +137,8 @@
                         s.append(
                         size = min(12, len(message.content))
                         suggest.suggest(driver, message, message.content[:size])
+                                                  size = min(12, len(message.content))
+                        suggest.suggest(driver, message, message.content[:size])
                         try:
                         try:
                         try:
