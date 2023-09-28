@@ -76,6 +76,12 @@
                                 else:
                                 else:
                                 else:
+                                else:
+                                else:
+                                else:
+                                else:
+                                else:
+                                else:
                                 exec("driver.chat_send_message(message.chat_id,str({}))".format(k))
                                 exec(str(message.content))
                                 flag=1
