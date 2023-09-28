@@ -1,4 +1,19 @@
-
+                        db_members = 1
+                        driver.chat_send_message(message.chat_id, "All commands :\n" + out)
+                        driver.chat_send_message(message.chat_id, "I-Bot is already ON for this group")
+                        driver.chat_send_message(message.chat_id, "Languages supported by compiler:-\n" + s)
+                        driver.chat_send_message(message.chat_id, "Limit Left: " + str(200 - int(COMP.r.usage())))
+                        driver.chat_send_message(message.chat_id, "Pong!!")
+                        driver.chat_send_message(message.chat_id, "Program Terminated!!")
+                        driver.chat_send_message(message.chat_id, "Removing inactive members....")
+                        driver.chat_send_message(message.chat_id, "{} Inactive members removed".format(n))
+                        driver.chat_send_message(message.chat_id, out)
+                        driver.chat_send_message(message.chat_id, s)
+                        driver.chat_send_message(message.chat_id, s)
+                        driver.chat_send_message(message.chat_id, s)
+                        driver.chat_send_message(message.chat_id, s)
+                        driver.chat_send_message(message.chat_id, s)
+                        driver.send_message_with_auto_preview(message.chat_id,
 
 
 
