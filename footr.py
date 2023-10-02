@@ -423,6 +423,12 @@
     wd.execute_script("window.open('');")  # opening second empty tab
     wd.get("https://www.google.com/")  # opening google in one tab
     while True:
+      from datetime import date
+from itertools import count
+from openwa import WhatsAPIDriver
+from selenium import webdriver
+import karma_bot
+import os
     win1 = wd.window_handles[0]
     win2 = wd.window_handles[1]
     Word = karma_bot.karma_word_game(score, player)
