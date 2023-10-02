@@ -8,6 +8,9 @@
                                     out += str(value) + "--> " + str(key) + "\n"
                                     out = out[0]
                                     p1 = fin_s[0]
+out += str(value) + "--> " + str(key) + "\n"
+                                    out = out[0]
+                                    p1 = fin_s[0]
                                     p2 = fin_s[1]
                                     p3 = None
                                     p4 = None
