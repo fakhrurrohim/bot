@@ -14,7 +14,18 @@
                         driver.chat_send_message(message.chat_id, s)
                         driver.chat_send_message(message.chat_id, s)
                         driver.send_message_with_auto_preview(message.chat_id,
-
+if str(message.sender.id) == YOUR_MOBILE_NUMBER + "@c.us":
+                        if str(message.sender.id) == YOUR_MOBILE_NUMBER + "@c.us":
+                        if Word.start == 1:
+                        if Word.start == 1:
+                        if Word.start == 1:
+                        if Word.start == 1:
+                        if Word.start == 1:
+                        l = (message.content.replace("#masskick ", "")).strip()
+                        l = l.split()
+                        message.chat_id)):
+                        message.chat_id)):
+                        message.chat_id):
 
 
 
