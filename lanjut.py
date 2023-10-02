@@ -138,6 +138,17 @@
                                 s1 = s[0]
                                 s1 = s[:idx].strip()
                                 s2 = s[1]
+                              s = "Tagged in a {} by {} with the message:\n\n{}".format( message.type,
+                                s = message._js_obj["quotedMsgObj"]["sender"]["id"]
+                                s = message._js_obj["quotedMsgObj"]['sender']['id']
+                                s = message.content.replace("#ans", "")
+                                s = message.content.split("#tagadmins")
+                                s = message.content.split("#tagall")
+                                s = message.content[1:]
+                                s = s.strip()
+                                s1 = s[0]
+                                s1 = s[:idx].strip()
+                                s2 = s[1]
                                 str(len(fin_s)))
                                 t = "@" + t.replace("@c.us", "")
                                 t = tag_id + "@c.us"
