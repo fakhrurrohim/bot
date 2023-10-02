@@ -2,7 +2,6 @@
                         else:
                         else:
                         else:
-                          else:
                         else:
                         else:
                         else:
@@ -111,6 +110,16 @@
                         s = ','.join(COMP.languages)
                         s = []
                         s = int(l[0])
+                        s = message.content.replace("#calc", "").strip()
+                        s = message.content.replace("#cdetail", "")
+                        s = message.content.replace("#cnews", "")
+                        s = message.content.replace("#cprice", "")
+                        s = message.content.replace("#kick", "")
+                        s = message.content.replace("#ludo", "")
+                        s = message.content.replace("#wiki", "")
+                        s = message.content.split()
+                        s = s.replace("#add", "")
+                        s = s.split(" ")
                         s = message.content.replace("#calc", "").strip()
                         s = message.content.replace("#cdetail", "")
                         s = message.content.replace("#cnews", "")
